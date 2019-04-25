@@ -1,0 +1,26 @@
+a) k bekommt den eingelesenen Wert zugewiesen und wird dann bevor die erste Ausgabe stattfindet durch ++k um 1 erhört und dann erst ausgegeben. Die Ausgabe b wird ganz normal durchgeführt. Die Ausgabe c) wird zunächst ausgeführt, dannach wird der Wert von k um 1 erhöht.
+
+Zusammenfassung: 
+++k = erhöhe den Wert der Variable um 1 und führe dannach die restlichen Operationen aus
+k++ = führe die anderen Operationen aus und erhöhe k im Anschluss um 1.
+
+b) Stelle 1 benötigt einen cast in double. Da das Ergebniss von zwei Integer Zahlen immer noch ein Integer Wert ist, 
+werden die Nachkommastellen gestrichen. Wenn man jedoch impliziert das Ergebniss als double Wert casted, wird das Zwischenergebniss als double realisiert und dannach der Variable result wie erwartet zugewiesen.
+
+TL;DR operation casten
+double result = (double)k2 / 2;
+
+c) Die Ausgabe kommt zustande da in dem if Statement kein vergleichsoperator, sondern ein zuweisungs Operator steht.
+Da ein if Statement immer auf einen Wahrheitswert hin prüft bzw. erwartet ist das logische Ergebniss eines false immer false, da in dem Fall b immer false zugewiesen wird und daher der Code in den else Teil springt.
+
+Um das Problem zu lösen kann man einfach folgende Varianten schreiben:
+
+if(b) {
+	System.out.println("b ist wahr.");
+} else {
+	System.out.println("b ist falsch.");
+}
+
+oder auch als Bedingter (ternärer) Operator
+
+b ? System.out.println("b ist wahr.") : System.out.println("b ist falsch.");

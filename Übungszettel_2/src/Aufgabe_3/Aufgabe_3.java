@@ -13,7 +13,7 @@ public class Aufgabe_3 {
 	}
 	
 	public static long Euklid (long a, long b) {
-		if (a == 0) {
+		if (a == 0)  {
 			return b;
 		} else {
 			while (b != 0) {

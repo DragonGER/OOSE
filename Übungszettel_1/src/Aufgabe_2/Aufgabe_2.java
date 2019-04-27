@@ -1,5 +1,4 @@
 package Aufgabe_2;
-import Input;
 
 public class Aufgabe_2 {
 

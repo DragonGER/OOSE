@@ -13,6 +13,7 @@ public class Aufgabe_1 {
 	}
 	
 	public static long fakultaet(long n) {
+		if (n < 0) return -1;
 		if(n == 0) return 1;
 		return fakultaet(n-1) * n;
 	}

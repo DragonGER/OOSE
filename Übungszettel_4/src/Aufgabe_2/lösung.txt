@@ -1,0 +1,14 @@
+a) Welche Ausgabe erzeugt der folgende Aufruf? Warum?
+Cauliflower essen1 = new Cauliflower();
+student.eat(essen1);
+
+"I donít like Blumenkohl an Gorgonzolasoﬂe"
+
+b) Welche Ausgabe erzeugt der folgende Aufruf? Warum?
+Spaghetti essen2 = new Spaghetti();
+student.eat(essen2);
+
+"I like Spaghetti Bologneser Art"
+c) Welche Ausgabe erzeugt der folgende Aufruf? Warum?
+Food essen = new Cauliflower();
+student.eat(essen);

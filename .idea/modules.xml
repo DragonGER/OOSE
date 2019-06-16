@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OnlineAufgabe_1/OnlineAufgabe_1.iml" filepath="$PROJECT_DIR$/OnlineAufgabe_1/OnlineAufgabe_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Übungszettel_1/Übungszettel_1.iml" filepath="$PROJECT_DIR$/Übungszettel_1/Übungszettel_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Übungszettel_2/Übungszettel_2.iml" filepath="$PROJECT_DIR$/Übungszettel_2/Übungszettel_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Übungszettel_3/Übungszettel_3.iml" filepath="$PROJECT_DIR$/Übungszettel_3/Übungszettel_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Übungszettel_4/Übungszettel_4.iml" filepath="$PROJECT_DIR$/Übungszettel_4/Übungszettel_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Übungszettel_5/Übungszettel_5.iml" filepath="$PROJECT_DIR$/Übungszettel_5/Übungszettel_5.iml" />
+    </modules>
+  </component>
+</project>
